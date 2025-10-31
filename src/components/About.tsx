@@ -11,17 +11,17 @@ export const About = () => {
     {
       icon: Code,
       title: "Full Stack Development",
-      description: "Expert in React, Next.js, Node.js, and modern web technologies",
+      description: "React, Next.js, Node.js, TypeScript",
     },
     {
       icon: Brain,
       title: "Machine Learning",
-      description: "Specialized in TensorFlow, PyTorch, and AI-powered solutions",
+      description: "TensorFlow, PyTorch, Deep Learning",
     },
     {
       icon: Sparkles,
-      title: "Problem Solver",
-      description: "Passionate about building scalable, efficient systems",
+      title: "Cloud & DevOps",
+      description: "Scalable architectures, CI/CD, APIs",
     },
   ];
 
@@ -46,13 +46,10 @@ export const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              I'm a Computer Science graduate student at UT Arlington with a passion for building innovative solutions that blend elegant design with powerful functionality.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              Currently working as a Research Assistant, I've successfully migrated complex systems to modern tech stacks, implemented scalable architectures, and developed ML models with industry-leading accuracy.
+              Computer Science graduate student at UT Arlington. Research Assistant specializing in modern web architectures and machine learning systems.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              My expertise spans full-stack development, machine learning, and cloud technologies. I thrive on transforming complex problems into intuitive, performant solutions.
+              Expert in full-stack development, AI/ML, and scalable cloud solutions. Focused on transforming complex challenges into elegant, high-performance applications.
             </p>
           </motion.div>
 
